@@ -8,11 +8,13 @@
     .open "code.us.bin", "edited.us.bin", 0x00100000
     .definelabel always_true, 0x0022f3d4
     .definelabel check_func, 0x002b5b88
+.elseifdef jp
+    .open "code.jp.bin", "edited.jp.bin", 0x00100000
+    .definelabel always_true, 0x0020bb2c
+    .definelabel check_func, 0x002c9554
 .else
-    .ifdef jp
-        .error "JP not supported yet, contact patataofcourse#5556 for help"
-    .elseifdef kr
-        .error "KR not supported yet, contact patataofcourse#5556 for help"
+    .ifdef kr
+        .error "KR not supported yet, contact patataofcourse on Discord for help"
     .else
         .error "You must define the region!"
     .endif
