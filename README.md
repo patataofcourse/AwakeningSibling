@@ -8,11 +8,11 @@ If anyone shows any interest, sure! My Discord is patataofcourse#5556 and my Tum
 
 ## How to use
 3DS users: You are expected to already have Luma3DS installed and game patching on. See https://3ds.hacks.guide
-Citra users: You can find your Citra folder at File > Open Citra Folder. It will change depending on OS.
+Citra users: You can find your Citra folder at File > Open Citra Folder. It will change depending on your OS (Windows/macOS/Linux).
 
-1. Download the patch for your region from the Releases tab (link goes here)
+1. Download the patch for your region from [the releases page](https://github.com/patataofcourse/AwakeningSibling/releases/latest)
 1. Rename the patch to code.ips
-1. Place it in your LayeredFS folder:
+1. Place it in your LayeredFS folder (if the folder doesn't exist, create it):
     - JP, Luma3DS: sd:/luma/titles/0004000000072000
     - JP, Citra: [citra folder]/load/mods/0004000000072000
     - US, Luma3DS: sd:/luma/titles/00040000000A0500/
@@ -20,9 +20,12 @@ Citra users: You can find your Citra folder at File > Open Citra Folder. It will
     - EU, Luma3DS: sd:/luma/titles/000400000009F100/
     - EU, Citra: [citra folder]/load/mods/000400000009F100/
 
-## Building
-In the following instructions, replace `##` with your region: `us`/`eu`/`jp`.
+## Building from source
+**Do not follow this unless you know what you're doing. Otherwise, this is useless to you.**
 
+In the following instructions, replace `##` with the region you want to build for: `us`/`eu`/`jp`.
+
+1. Clone the repo (`git clone https://github.com/patataofcourse/AwakeningSibling`)
 1. Copy your code.bin to this folder, and rename it to code.##.bin
-1. Run `armips main.s -definelabel ## 0`
+1. Run `armips patch/##.s`
 1. edited.##.bin will be the patched code.bin
