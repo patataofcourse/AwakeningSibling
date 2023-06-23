@@ -8,6 +8,7 @@ If anyone shows any interest, sure! My Discord and Tumblr are patataofcourse, hm
 
 ## How to use
 3DS users: You are expected to already have Luma3DS installed and game patching on. See https://3ds.hacks.guide
+
 Citra users: You can find your Citra folder at File > Open Citra Folder. It will change depending on your OS (Windows/macOS/Linux).
 
 1. Download the patch for your region from [the releases page](https://github.com/patataofcourse/AwakeningSibling/releases/latest)
