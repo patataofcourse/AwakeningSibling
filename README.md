@@ -4,7 +4,7 @@ Companion patch to the Gay Awakening mods that allows children of same-sex pairi
 This patch is originally by Sierra, I reverse-engineered the patch and redid it for the other regions.
 
 ## Will you support KR?
-If anyone shows any interest, sure! My Discord is patataofcourse#5556 and my Tumblr is patataofcourse, hmu if you'd like me to make a KR variation.
+If anyone shows any interest, sure! My Discord and Tumblr are patataofcourse, hmu if you'd like me to make a KR variation.
 
 ## How to use
 3DS users: You are expected to already have Luma3DS installed and game patching on. See https://3ds.hacks.guide
